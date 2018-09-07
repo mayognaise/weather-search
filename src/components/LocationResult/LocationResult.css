@@ -1,0 +1,64 @@
+.LocationResult {
+  margin-top: 2em;
+  border: solid 1px black;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  animation: show .3s 1 ease-in-out forwards;
+}
+.LocationResult-name {
+  font-size: 1.5em;
+}
+
+.LocationResult-items {
+  display: flex;
+  margin-top: .8em;
+  align-items: center;
+}
+
+.LocationResult-left {
+  width: 40%;
+}
+
+.LocationResult-right {
+  width: 60%;
+}
+
+.LocationResult-icon-image {
+  width: 50px;
+}
+
+.LocationResult-temp {
+  font-size: 1.9em;
+}
+
+.LocationResult-temp-items {
+  display: flex;
+}
+
+.LocationResult-temp--max {
+  color: red;
+  flex-grow: 1;
+}
+
+.LocationResult-temp--min {
+  color: blue;
+  flex-grow: 1;
+}
+
+.LocationResult-options {
+  display: flex;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: solid 1px black;
+}
+
+.LocationResult-option {
+  flex-grow: 1;
+}
+
+.LocationResult-option--attr {
+  font-weight: initial;
+  font-size: .8em;
+  margin-bottom: .1em;
+}

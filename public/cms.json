@@ -1,0 +1,33 @@
+{
+  "labels": {
+    "headerTitle": "Weather Search",
+    "wind": "Wind",
+    "humidity": "Humidity",
+    "pressure": "Pressure",
+    "modalDefaultText": "Unknown Error. Try again later.",
+    "modalCTA": "OK"
+  },
+  "units": {
+    "metric": "°C",
+    "imperial": "°F",
+    "wind": "m/h",
+    "humidity": "%",
+    "pressure": "hPa"
+  },
+  "controls": {
+    "city": {
+      "label": "By city name",
+      "placeholder": "San Francisco",
+      "cta": "Search"
+    },
+    "zipcode": {
+      "label": "By zipcode (5 digits: US only)",
+      "placeholder": "94102",
+      "cta": "Search"
+    },
+    "geolocation": {
+      "label": "By current location",
+      "cta": "Get Current Position"
+    }
+  }
+}

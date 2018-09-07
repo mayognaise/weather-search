@@ -1,0 +1,33 @@
+.LocationForm {
+  margin-top: 1.5em;
+}
+
+.LocationForm-label {
+  text-align: left;
+  display: block;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.LocationForm-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: .5em;
+}
+
+.LocationForm-input {
+  font-size: 1.2em;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+  border-bottom: solid 1px black;
+  padding: .2em .4em;
+}
+
+.LocationForm-cta {
+  flex: none;
+}
+
+.LocationForm-cta[disabled] {
+  opacity: .3;
+}

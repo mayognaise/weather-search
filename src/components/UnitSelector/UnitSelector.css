@@ -1,0 +1,18 @@
+.UnitSelector {
+  margin-top: 1em;
+}
+
+.UnitSelector-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.UnitSelector-cta[data-active="true"] {
+  cursor: default;
+}
+
+.UnitSelector-cta[data-active="false"] {
+  border: solid 1px black !important;
+  background-color: white;
+  color: black;
+}

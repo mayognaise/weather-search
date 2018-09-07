@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.button {
+  position: relative;
+  vertical-align: top;
+  border-radius: 0;
+  border: none;
+  padding: .4em .8em;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+}
+
+.button.is-loading {
+  color: transparent!important;
+  pointer-events: none;
+}
+
+.button.is-loading:after {
+  position: absolute;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute !important;
+  animation: spinAround .5s infinite linear;
+  border: 2px solid #dbdbdb;
+  border-radius: 290486px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
