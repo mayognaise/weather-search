@@ -42,7 +42,7 @@ class LocationForm extends Component {
     const value = e.currentTarget.value;
     this.setState({
       value,
-      isValid: this.props.validate(value)
+      isValid: !this.props.validate || this.props.validate(value)
     });
   };
   render() {
