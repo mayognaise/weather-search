@@ -1,6 +1,6 @@
 # Weather Search
 
-## Instaration
+## Installation
 
 #### Install node packages
 
@@ -25,6 +25,6 @@ REACT_APP_WEATHER_MAP_KEY=XXXXXXXXXX
 ```bash
 npm start
 
-# Open browther
+# Open browser
 # http://localhost:3000
 ```
